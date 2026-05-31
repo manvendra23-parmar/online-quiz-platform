@@ -1,0 +1,67 @@
+/* CSS Variables - Design Tokens & Curated Color Palette */
+/* Default: Sleek Dark Theme (Frosted glassmorphism, glows, dark slate) */
+
+:root {
+  /* Common Palette (Light Theme Defaults) */
+  --hue-primary: 250; /* Royal Violet */
+  --hue-secondary: 180; /* Electric Teal */
+  
+  --primary-color: hsl(var(--hue-primary), 85%, 55%);
+  --primary-hover: hsl(var(--hue-primary), 85%, 45%);
+  --secondary-color: hsl(var(--hue-secondary), 75%, 45%);
+  --secondary-hover: hsl(var(--hue-secondary), 75%, 35%);
+  
+  --success-color: hsl(142, 70%, 42%);
+  --success-hover: hsl(142, 70%, 35%);
+  --danger-color: hsl(350, 75%, 48%);
+  --danger-hover: hsl(350, 75%, 40%);
+  --warning-color: hsl(45, 90%, 45%);
+  
+  /* Text and Backgrounds for Light Theme */
+  --bg-app: hsl(220, 25%, 97%);
+  --bg-card: hsla(0, 0%, 100%, 0.8);
+  --bg-input: hsl(0, 0%, 98%);
+  --border-color: hsla(220, 15%, 85%, 0.5);
+  
+  --text-main: hsl(224, 25%, 15%);
+  --text-secondary: hsl(224, 15%, 45%);
+  --text-light: hsl(224, 10%, 65%);
+  --text-white: #ffffff;
+  
+  /* Glassmorphism Specs */
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08);
+  --card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  --glow-shadow: 0 0 15px hsla(var(--hue-primary), 85%, 55%, 0.3);
+  
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  
+  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', system-ui, -apple-system, sans-serif;
+}
+
+/* Dark Theme Tokens (Frosted navy space vibe) */
+body.dark-theme {
+  --bg-app: hsl(224, 30%, 8%);
+  --bg-card: hsla(224, 25%, 12%, 0.7);
+  --bg-input: hsl(224, 25%, 10%);
+  --border-color: hsla(224, 15%, 25%, 0.4);
+  
+  --text-main: hsl(224, 20%, 94%);
+  --text-secondary: hsl(224, 15%, 72%);
+  --text-light: hsl(224, 10%, 55%);
+  
+  --glass-bg: rgba(15, 22, 42, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  --card-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
+  --glow-shadow: 0 0 25px hsla(var(--hue-primary), 85%, 55%, 0.4);
+}
