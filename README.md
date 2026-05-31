@@ -108,8 +108,8 @@ To explore the application immediately without signing up, use these seeded test
 * **Features**: Browse active assessments, attempt timed quizzes with animated SVG timers, real-time auto-saves, review completed results with explanation blocks, track leaderboard standing, view score timeline charts.
 
 #### 2. Administration Manager Account
-* **Email**: `admin@quizplatform.com`
-* **Password**: `adminpassword`
+* **Email**: `test@example.com`
+* **Password**: `password123`
 * **Features**: Comprehensive CRUD dashboard, create/update/delete quizzes, add single questions, drag-and-drop CSV bulk question importer, global platform participation statistics, comparative SVG score averages graphs, candidate completed exams log.
 
 ---
