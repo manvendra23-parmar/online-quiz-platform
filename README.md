@@ -1,4 +1,5 @@
 Online Quiz & Assessment Platform (Quizora)
+
 About the System
 
 Quizora is an online quiz and assessment system made for conducting MCQ-based exams in an easy and secure way. Users can register, attend quizzes, check scores, and view rankings on the leaderboard. Admin can manage quizzes, questions, and monitor student performance.
@@ -48,7 +49,7 @@ npm run dev
 
 The backend will run on:
 
-http://localhost:5000
+http://localhost:5137
 Step 2: Start Frontend
 
 Open another terminal and go to frontend folder:
