@@ -68,15 +68,7 @@ Open the link shown in terminal (usually):
 
 http://localhost:5173
 Demo Login Details
-Student Account
 
-Email:
-
-user@quizplatform.com
-
-Password:
-
-userpassword
 Admin Account
 
 Email:
